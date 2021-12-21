@@ -30,3 +30,28 @@ Implement the function to count correctly and pass the test.
 - Readability: including variable names, code-flow, useage of comments only when necessary
 - Improvements to existing code and tests
 - Precision: adding new tests (such as boundary conditions)
+- 
+- #include<stdio.h>
+- #include<math.h>
+- int a,b,c,count,i;
+- for(i=0;
+- if(i<150)
+- {
+- printf("The batteries are low);
+- }
+- if(i>=150 && i<649)
+- {
+- printf('The batteries are fall in the medium range");
+- }
+- if(i>=650)
+- {
+- printf("The batteries are classified as high capacity batteries);
+- }
+- int batterycount()
+- {
+- for(i=0;i<count;i++)
+- count++;
+- }
+- 
+- 
+
